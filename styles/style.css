@@ -28,8 +28,7 @@
 .address__header {
   display: flex;
   flex-direction: column;
-  justify-self: end;
-  align-items: flex-start;
+  justify-self: end; 
   gap: 10px;
   max-width: 240px;
   font-style: normal;
