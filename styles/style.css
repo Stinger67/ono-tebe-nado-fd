@@ -78,7 +78,8 @@
 }
 
 .no__letter__spacing {
-  margin-right: -30px;
+  letter-spacing: normal;
+
 }
 
 .left {
@@ -192,6 +193,7 @@
   line-height: 120%;
   text-transform: none;
 }
+
 .cards {
   position: relative;
   width: 334px;
@@ -201,6 +203,7 @@
   background-position: center;
   background-size: cover;
 }
+
 .film__lot {
   background-image: url(../images/card-lot-01.jpg);
 }
@@ -261,7 +264,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -275,7 +278,6 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  min-height: 180px;
   padding: 0 50px;
   font-size: 18px;
 }
